@@ -27,7 +27,7 @@ nav a {
     transition: 0.5s;
 }
 
-.navbar-nav a:hover{
+.navbar-nav a:hover {
     color: #000 !important;
 }
 
@@ -35,9 +35,10 @@ nav a {
 
 /* header */
 
-#carouselExampleCaptions{
+#carouselExampleCaptions {
     width: 100%;
 }
+
 /* cards */
 #scarlet-king {
     height: 855px !important;
@@ -86,12 +87,13 @@ nav a {
 
 /* about */
 
-.about{
+.about {
     margin-top: 3%;
     text-align: center;
     text-shadow: 1px 1px 1px rgb(7, 7, 7);
     color: #fff;
 }
+
 .media {
     background-color: rgb(255, 255, 255);
     margin-top: 3%;
@@ -102,12 +104,13 @@ nav a {
 /* end about */
 
 /* footer */
-hr{
+hr {
     background-color: #fff;
     width: 50%;
     margin-top: 3%;
 }
-footer{
+
+footer {
     display: flex !important;
     justify-content: space-around;
     width: 100%;
@@ -117,62 +120,63 @@ footer{
     column-gap: 10%;
 }
 
-footer div{
+footer div {
     margin-right: 10%;
     margin-top: 3%;
     width: 33%;
 }
 
-.left-footer img{
+.left-footer img {
     width: 275px;
     height: 75px;
     margin-top: 35%;
 }
 
-.center-footer h1{
+.center-footer h1 {
     font-size: large;
     margin-top: 10%;
 }
 
-.center-footer ul{
+.center-footer ul {
     list-style: none;
     margin-left: -20%;
     /* margin-top: 35%; */
     line-height: 40px;
 }
 
-.center-footer ul li a{
+.center-footer ul li a {
     text-decoration: none;
     color: #fff !important;
     transition: 1s;
 }
 
-.center-footer ul li a:hover{
+.center-footer ul li a:hover {
     color: #000 !important;
 }
 
-.right-footer ul{
+.right-footer ul {
     list-style: none;
     margin-left: -20%;
     line-height: 50px;
 }
 
-.right-footer h1{
+.right-footer h1 {
     font-size: large;
 }
 
-.right-footer ul li{
+.right-footer ul li {
     font-size: large;
 
 }
 
-.right-footer ul li a{
+.right-footer ul li a {
     text-decoration: none;
     color: #fff !important;
     transition: 1s;
 }
 
-.right-footer ul li a:hover{
+.right-footer ul li a:hover {
     color: #000 !important;
 }
+
 /* end footer */
