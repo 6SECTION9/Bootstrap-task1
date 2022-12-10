@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(4deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 13, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* nav */
+
+nav {
+    width: 100%;
+    /* height: 15% !important; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(241deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 13, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    position: fixed !important;
+    z-index: 69;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+}
+
+
+nav a {
+    color: #fff !important;
+}
+
+/* end nav */
+
+/* cards */
+#scarlet-king {
+    height: 855px !important;
+}
+
+#gate-guairdian-text {
+    text-shadow: 1px 1px #000;
+}
+
+.more {
+    margin-top: 3%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(7, 7, 7);
+    color: #fff;
+}
+
+.card-deck {
+    margin-top: 3%;
+}
+
+.card {
+    border-radius: 4% !important;
+}
+
+.card img {
+    height: 400px !important;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    transition: 1s;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* end cards */
+
+/* about */
+
+.about{
+    margin-top: 3%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(7, 7, 7);
+    color: #fff;
+}
+.media {
+    background-color: rgb(255, 255, 255);
+    margin-top: 3%;
+    padding-top: 2%;
+}
+
+/* end about */
