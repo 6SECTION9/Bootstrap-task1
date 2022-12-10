@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    display: ;
     background: rgb(2, 0, 36);
     background: linear-gradient(4deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 13, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
@@ -25,10 +25,20 @@ nav img {
 
 nav a {
     color: #fff !important;
+    transition: 0.5s;
+}
+
+.navbar-nav a:hover{
+    color: #000 !important;
 }
 
 /* end nav */
 
+/* header */
+
+#carouselExampleCaptions{
+    width: 100%;
+}
 /* cards */
 #scarlet-king {
     height: 855px !important;
@@ -89,3 +99,70 @@ nav a {
 }
 
 /* end about */
+
+/* footer */
+hr{
+    background-color: #fff;
+    width: 50%;
+    margin-top: 3%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(183, 183, 183, 0.832);
+    margin: 0;
+}
+
+.footer-links{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-links li{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.footer-links li a{
+    color: #000;
+    font-size: large;
+    line-height: 20px;
+}
+
+.footer-links li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+footer input{
+    text-align: center;
+    width: 20%;
+    outline: none;
+    border: none;
+    /* border-radius: 4%; */
+    border-bottom: 2px solid#000;
+    border-left: 2px solid#000;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+footer button{
+    width: 7%;
+    height: 20%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    transition: 1s;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+footer button:hover{
+    box-shadow: 1px 11px 14px 1px rgba(0,0,0,0.78);
+    -webkit-box-shadow: 1px 11px 14px 1px rgba(0,0,0,0.78);
+    -moz-box-shadow: 1px 11px 14px 1px rgba(0,0,0,0.78);
+
+}
